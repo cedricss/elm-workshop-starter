@@ -1,0 +1,13 @@
+.env
+.parcel-cache
+*.local
+dist
+.DS_Store
+elm-stuff
+node_modules/
+npm-debug.log*
+.netlify
+public/style.css
+repl-temp-*
+cypress/screenshots/*
+cypress/videos/*
