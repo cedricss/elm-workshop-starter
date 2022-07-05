@@ -1,4 +1,4 @@
-# Elm workshop
+# Formation Elm
 
 ## Prérequis
 
@@ -17,9 +17,9 @@ npm install
 npm run dev
 ```
 
-Ouvrir http://localhost:3001/
+Ouvrir http://localhost:3000/ et vérifier que la page s'affiche correctement :
 
-![step0](https://user-images.githubusercontent.com/802010/177262489-8e89c01d-825e-4f90-98ae-29c52bb64d7a.png)
+<img width="1216" alt="177262489-8e89c01d-825e-4f90-98ae-29c52bb64d7a" src="https://user-images.githubusercontent.com/802010/177266915-ba0bcae3-0c7b-4dd1-a3d9-5997c315e131.png">
 
 ## IDE
 
@@ -30,7 +30,8 @@ Ouvrir http://localhost:3001/
 
 Dans "Language & Frameworks" cliquer sur "Elm" et cocher "Run when file saved?" :
 
-![CleanShot 2022-07-05 at 08 26 56@2x](https://user-images.githubusercontent.com/802010/177263350-75b7a752-e3ae-4e9f-b225-8abc9f43d5b4.png)
+<img width="1190" alt="177263350-75b7a752-e3ae-4e9f-b225-8abc9f43d5b4" src="https://user-images.githubusercontent.com/802010/177267238-acb94394-2f44-4f73-83ca-68756e584677.png">
+
 
 ### Tester l'installation du plugin Elm
 
@@ -39,8 +40,7 @@ Ajouter `test = hello` dans _src/Main.elm_ et vérifier qu'en sauvegardant les m
 - `test` est grisé (non utilisé)
 - `hello` est souligné en rouge (non défini)
 
-
-![CleanShot 2022-07-05 at 08 36 29](https://user-images.githubusercontent.com/802010/177264972-f44dfa13-0a6e-48dd-b155-268b648ee923.gif)
+![CleanShot 2022-07-05 at 08 47 59](https://user-images.githubusercontent.com/802010/177266883-de831d04-6b57-4361-8757-73ee5b8e7a1b.gif)
 
 ### Personnaliser l'apparence
 
