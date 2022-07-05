@@ -19,7 +19,7 @@ npm run dev
 
 Ouvrir http://localhost:3000/ et vérifier que la page s'affiche correctement :
 
-<img width="1216" alt="177262489-8e89c01d-825e-4f90-98ae-29c52bb64d7a" src="https://user-images.githubusercontent.com/802010/177266915-ba0bcae3-0c7b-4dd1-a3d9-5997c315e131.png">
+<img src="https://user-images.githubusercontent.com/802010/177266915-ba0bcae3-0c7b-4dd1-a3d9-5997c315e131.png">
 
 ## IDE
 
@@ -30,23 +30,27 @@ Ouvrir http://localhost:3000/ et vérifier que la page s'affiche correctement :
 
 Dans "Language & Frameworks" cliquer sur "Elm" et cocher "Run when file saved?" :
 
-<img width="1190" alt="177263350-75b7a752-e3ae-4e9f-b225-8abc9f43d5b4" src="https://user-images.githubusercontent.com/802010/177267238-acb94394-2f44-4f73-83ca-68756e584677.png">
+<img src="https://user-images.githubusercontent.com/802010/177267238-acb94394-2f44-4f73-83ca-68756e584677.png">
 
 
-### Tester l'installation du plugin Elm
+## Tester votre environnement
 
 Ajouter `test = hello` dans _src/Main.elm_ et vérifier qu'en sauvegardant les modifications :
 - le code se reformate automatiquement
 - `test` est grisé (non utilisé)
 - `hello` est souligné en rouge (non défini)
 
-![CleanShot 2022-07-05 at 08 47 59](https://user-images.githubusercontent.com/802010/177266883-de831d04-6b57-4361-8757-73ee5b8e7a1b.gif)
+![](https://user-images.githubusercontent.com/802010/177266883-de831d04-6b57-4361-8757-73ee5b8e7a1b.gif)
 
-### Personnaliser l'apparence
+Du coté de votre navigateur, vérifier qu'un message d'erreur est automatiquement affiché sur la page :
+
+<img src="https://user-images.githubusercontent.com/802010/177296766-901a2be4-0825-445f-b7b5-a6ce334a578b.png">
+
+## Personnaliser l'apparence d'IntelliJ IDEA
 
 Aller dans `Preferences` > puis rechercher "appearance". Cliquer sur "Get more themes" :
 
-![CleanShot 2022-07-05 at 08 42 11@2x](https://user-images.githubusercontent.com/802010/177265830-caab61e3-ded5-4355-a2eb-c2dc93ef0fa5.png)
+![](https://user-images.githubusercontent.com/802010/177265830-caab61e3-ded5-4355-a2eb-c2dc93ef0fa5.png)
 
 
 ## Licence
